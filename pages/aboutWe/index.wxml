@@ -1,0 +1,12 @@
+<view class="title">
+  关于我们
+</view>
+<view class="imgBox">
+  <image mode="widthFix" src="https://ae01.alicdn.com/kf/Hdef7e1c6a8b346c4ba4d67bcc0ed0ac6B.jpg"></image>
+</view>
+<view class="content">
+  我们是一群热爱学习的超级无敌可爱的小朋友！
+</view>
+<view class="content">
+  不秃头不秃头不秃头……
+</view>

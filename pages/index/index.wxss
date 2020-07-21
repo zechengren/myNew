@@ -1,0 +1,30 @@
+.newBox{
+  padding:15rpx;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+
+.newsTitle{
+  margin: 10rpx 0;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.newsTimes{
+  color:#999;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.newsSource{
+  margin-right: 20rpx;
+}
+.imgBox{
+  margin: 30rpx 0;
+  width: 60%;
+  align-self: center;
+}
+
+.imgBox image{
+  width: 100%;
+}

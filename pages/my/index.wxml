@@ -1,0 +1,33 @@
+<view wx:if="{{personList.nickName}}">
+  <view class="imgBackground">
+     <image class="img" mode="scaleToFill" src="{{personList.avatarUrl}}">
+     </image>
+     <view class="smallImg">
+       <image class="img2" mode="widthFix" src="{{personList.avatarUrl}}"></image>
+     </view>
+  </view>
+</view>
+<view wx:else>
+  <view class="backGround">
+    <navigator class="btnUrl" url="../login/index"> 
+      <button class="btn">登录</button> 
+    </navigator>
+  </view>
+</view>
+<!-- 头像登录结束 -->
+
+<view class="body"> 
+  <view class="kefu"> <button class="btnKefu" open-type="contact" plain>联系客服</button> </view>
+  <view class="kefu"> <button class="feedback" open-type="feedback" plain>意见反馈</button> </view>
+  <view class="kefu"> 
+    <navigator url="../aboutWe/index">
+      <button class="aboutWe" plain>关于我们</button>
+    </navigator> 
+  </view>
+
+</view>
+
+
+
+
+ 

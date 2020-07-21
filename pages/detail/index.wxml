@@ -1,0 +1,12 @@
+<rich-text class="title" nodes="{{content.title}}"></rich-text>
+<view class="times"> <rich-text class="time" nodes="{{content.time}}"></rich-text>
+<view class="source"> <text>来源：</text> <rich-text class="src" nodes="{{content.src}}"></rich-text> </view>
+ </view>
+
+<view class="pic"> <image mode="widthFix" src="{{content.pic}}"></image> </view> 
+<rich-text class="content" nodes="{{content.content}}"></rich-text>
+
+
+
+
+ 

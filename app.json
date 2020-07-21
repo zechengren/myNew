@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/index",
+    "pages/classify/index",
+    "pages/my/index",
+    "pages/new1/index",
+    "pages/new2/index",
+    "pages/new3/index",
+    "pages/new4/index",
+    "pages/login/index",
+    "pages/classifyDetail/index",
+    "pages/aboutWe/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#88d1f1",
+    "navigationBarTitleText": "掌舵者资讯",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#3b3b3b",
+    "selectedColor": "#dc3822",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "推荐",
+      "iconPath": "/icon/home.png",
+      "selectedIconPath": "/icon/homes.png"
+    },
+    {
+      "pagePath": "pages/classify/index",
+      "text": "分类",
+      "iconPath": "/icon/classify.png",
+      "selectedIconPath": "/icon/classifys.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "/icon/my.png",
+      "selectedIconPath": "/icon/mys.png"
+    }]
+  }
+}

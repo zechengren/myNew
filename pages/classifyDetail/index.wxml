@@ -1,0 +1,17 @@
+<view class="newBox" wx:for="{{newsList}}" wx:key="title">
+  <view class="newsTitle" bindtap="handleDetail" data-content="{{item}}">  {{item.title}} </view>
+  <view class="newsTimes"> 
+     <view class="newsTime"> {{item.time}} </view>
+     <view class="newsSource">  {{item.src}} </view>
+    
+     
+
+   </view>
+   
+   <view class="imgBox"> <image mode="widthFix" src="{{item.pic}}">   </image> </view>
+</view>
+<!-- <view wx:for="{{newsList}}" wx:key="title"> 
+ <rich-text nodes=" {{ item.content }}"></rich-text>
+
+
+</view> -->

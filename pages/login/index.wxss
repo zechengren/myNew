@@ -1,0 +1,14 @@
+.btnBox{
+  margin-top: 20rpx;
+
+  display: flex;
+  justify-content: center;
+}
+.btnBox .btn{
+  padding:0;
+  margin:0;
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+
+}

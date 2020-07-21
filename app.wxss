@@ -1,0 +1,4 @@
+@import "./lib/iconfont.wxss";
+view,text,rich-text{
+  font-size: 30rpx;
+}

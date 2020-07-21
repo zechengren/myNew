@@ -1,0 +1,42 @@
+page{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.title{
+  margin: 10rpx 0;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.times{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #999;
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+
+}
+.source{
+  display: flex;
+  flex-direction: row;
+}
+
+.pic{
+  align-self: center;
+  margin: 20rpx 0;
+  width:95%;
+}
+.pic image{
+  width: 100%;
+}
+.content{
+  /* margin: 0 10rpx; */
+  line-height: 2;
+  font-size: 35rpx;
+  color: #666;
+}
+image{
+  max-width: 750rpx;
+}

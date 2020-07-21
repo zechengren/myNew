@@ -1,0 +1,122 @@
+<swiper indicator-dots autoplay circular interval="3000" indicator-color="#ccc" indicator-active-color="#88d1f1" > 
+
+<swiper-item>
+ <navigator url="../new1/index">
+ <image mode="widthFix" src="http://www.chinanews.com/photo/U610P4T370D1F11378DT20200602184328.jpg"></image>
+ 
+ </navigator>
+
+
+</swiper-item> 
+
+<navigator url="../new2/index">
+  <swiper-item>
+ <image mode="widthFix" src="http://www.chinanews.com/photo/U610P4T370D1F11381DT20200602184328.jpg"></image>
+</swiper-item> 
+</navigator>
+
+
+
+<navigator url="../new3/index">
+<swiper-item>
+ <image mode="widthFix" src="http://www.chinanews.com/photo/U610P4T370D1F11384DT20200602184328.jpg"></image>
+</swiper-item> 
+</navigator>
+
+<navigator url="../new4/index">
+  <swiper-item>
+ <image mode="widthFix" src="http://www.chinanews.com/photo/U610P4T370D1F11387DT20200602184328.jpg"></image>
+</swiper-item> 
+</navigator>
+
+</swiper> 
+<!-- 轮播图结束 -->
+<view class="title2">/ 分类 /</view>
+<view class="classifyBox">
+  <view class="icon">
+    <navigator data-name="娱乐" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-yule"> 
+    </view>
+    <view class="font">娱乐</view>
+    </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="财经" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-caijing"> 
+    </view>
+    <view class="font">财经</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="育儿" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-yuer"> 
+    </view>
+    <view class="font">育儿</view>
+  </navigator>
+  </view>
+<view class="icon">
+  <navigator data-name="股票" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-stock"> 
+    </view>
+    <view class="font">股票</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="军事" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-junshi"> 
+    </view>
+    <view class="font">军事</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="健康" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-jiankang"> 
+    </view>
+    <view class="font">健康</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="NBA" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-NBA"> 
+    </view>
+    <view class="font">NBA</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="女性" url="../classifyDetail/index" bindtap="handleClassify"> 
+    <view class="iconfont icon-weibiaoti-"> 
+    </view>
+    <view class="font">女性</view>
+  </navigator>
+  </view>
+   <view class="icon">
+  <navigator data-name="科技" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-fenleiicon-"> 
+    </view>
+    <view class="font">科技</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="体育" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-tiyu"> 
+    </view>
+    <view class="font">体育</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="教育" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-jiaoyu"> 
+    </view>
+    <view class="font">教育</view>
+  </navigator>
+  </view>
+  <view class="icon">
+  <navigator data-name="星座" url="../classifyDetail/index" bindtap="handleClassify">
+    <view class="iconfont icon-xingzuo"> 
+    </view>
+    <view class="font">星座</view>
+  </navigator>
+  </view>
+  
+</view>
+
